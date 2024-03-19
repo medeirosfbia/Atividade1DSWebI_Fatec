@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="register">
+        <div class="title">
+            <h1>Cadastro</h1>
+            <p>Cadastre-se para receber mais informaçõe sobre viagens a este 7 incríveis lugares no mundo</p>
+        </div>
+        <div class="form">
+            <form action="" method="post">
+                <p>Nome: <br>
+                    <input type="text" name="name" size="30" placeholder="Digite seu nome" maxlength="30">
+                </p>
+                <p>Data de nascimento: <br>
+                    <input type="date" name="birth" size="30" placeholder="Digite sua idade" maxlength="3">
+                </p>
+                <p>Telefone: <br>
+                    <input type="number" name="phone" size="30" placeholder="Digite seu telefone" maxlength="13">
+                </p>
+                <p>Endereço: <br>
+                    <input type="text" name="phone" size="30" placeholder="Digite seu endereço" maxlength="30">
+                </p>
+                <p>Email: <br>
+                    <input type="email" name="email" size="30" placeholder="Digite seu email" maxlength="30">
+                </p>
+                <p>Digite uma senha: <br>
+                    <input type="password" name="password" size="30" placeholder="Digite uma senha" minlength="8">
+                </p>
+                <p>Repita a senha: <br>
+                    <input type="password" name="password2" size="30" placeholder="Repita a senha" minlength="8">
+                </p>
+        
+                <p>Você deseja receber dicas de viagens para locais além destes mostrados na página?
+                    <input type="radio" name="travelTips" value="Yes" checked> Sim &nbsp;&nbsp;
+                    <input type="radio" name="travelTips" value="No"> Não
+                </p>
+        
+                <p>Você deseja receber promoções em seu email?
+                    <input type="radio" name="promotion" value="Yes" checked> Sim &nbsp;&nbsp;
+                    <input type="radio" name="promotion" value="No"> Não
+                </p>
+                <p> Escreva um comentário sobre a página: <br>
+                    <textarea style="resize: none;" name="coment" id="coment" cols="30" rows="10"></textarea>
+                </p>
+                <p class="buttons">
+                    <input type="reset" value="Limpar">
+                    <input type="submit" value="Enviar">
+                </p>
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>
