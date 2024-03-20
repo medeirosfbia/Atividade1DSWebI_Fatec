@@ -1,10 +1,11 @@
 /* Tudo */
 #all{
-	position:relative;
-    width: 100%;
-    float: left;
+	position:relative;  
     text-align: center;
     background-color:rgb(231, 225, 218);
+}
+body{
+    margin: 0px;
 }
 
 /* Topo */
@@ -56,10 +57,14 @@
 }
 
 /* Conteúdo do Iframe */
-#content{
-    background-color: #639027;
-    margin-left: auto;
-    margin-right: auto;
+#iframeContent p{
+    margin-top: 22px;
+    margin-bottom: 0px;
+}
+#iframeContent iframe{
+    width: 1000px;
+    height: 650px;
+    border: 0px;
 }
 
 
@@ -70,13 +75,13 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16pt;
     width: 1000px;
-    height: 50px;
+    height: 45px;
     margin: auto;
     padding: 5px 0px 5px 0px;
 }
 #baseboard a{
     float:right;
-    padding: 12px;
+    padding: 10px;
     text-decoration: none;
     color: aliceblue;
 }
@@ -86,8 +91,8 @@
 }
 #baseboard p{
     text-align: left;
-    padding-left: 18px;
-    padding-top: 15px;
+    padding-left: 15px;
+    padding-top: 12px;
     margin: auto;
     
 }
@@ -166,4 +171,26 @@ th{
 .tableContent img{
 	width: 190px;
 	height: 100%;
+}
+
+
+
+/* Página Sobre */
+#aboutPage h1{
+    text-align: center;
+    color: aliceblue;
+    background-color: #639027;
+    border: rgb(84, 89, 94) 3px solid;
+    padding: 10px 0px 10px;
+    margin: auto;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 27pt;
+}
+#aboutPage p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 15pt;
+
 }
